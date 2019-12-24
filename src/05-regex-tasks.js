@@ -32,7 +32,7 @@
  * @return {RegExp}
  */
 function getRegexForGuid() {
-  throw new Error('Not implemented');
+  return new RegExp('^{([0-9]|[A-F]|[a-f]){8}-([0-9]|[A-F]|[a-f]){4}-([0-9]|[A-F]|[a-f]){4}-([0-9]|[A-F]|[a-f]){4}-([0-9]|[A-F]|[a-f]){12}}');
 }
 
 
